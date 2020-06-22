@@ -15,7 +15,7 @@ async function getUserData() {
         let addText = document.createTextNode(results.id);
         text.appendChild(addText);
         let text2 = document.createElement("h2");
-        let addText2 = document.createTextNode(results.name);
+        let addText2 = document.createTextNode(results.login);
         text2.appendChild(addText2);
         let li = document.createElement("li");
         let img = document.createElement("img");
